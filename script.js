@@ -4,43 +4,65 @@ const caixaAlternativas = document.querySelector(".caixa- alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
-const perguntas = [
+const perguntas = [,
     {
     enunciado: "Qual pais tem o maior indice de pobreza?",
-    alternativas: [
-
+    alternativas: [ 
+        
     {texto: "África",
-     afirmação: afirmação da alternativa 1"
-     },
+     afirmação: "Afirmção da alternativa 1"  
+    },
 
-     {texto: "Somália",
-     afirmação: afirmação da alternativa 1"
-     },
+    {texto: "Somália",
+     afirmação: "Afirmação da alternativa 2"
+    },
 
      {texto: "Cuba",
-     afirmação: afirmação da alternativa 1"
+     afirmação: "Afirmação da alternativa 3"
      },
-    
     ]
+},   
+    {
+      enunciado: "Qual o estado brasileiro mais racista?",
+      alternativas: [
 
-       
-        }
-        "Africa",
-         "Somália", 
-         "Cuba",
-        },
-        
-        {
-        enunciado: "Qual o estado brasileiro mais racista?",
-        alternativas: ["São Paulo", "Paraná", "Rio Grande do Sul"],
-        },
-        
-        {
+      {texto: "São Paulo",
+       afirmação: "Afirmção da alternativa 1"  
+      },
+  
+      {texto: "Paraná",
+       afirmação: "Afirmação da alternativa 2"
+      },
+  
+       {texto: "Rio Grande do Sul",
+       afirmação: "Afirmação da alternativa 3"
+       },
+      ]
+    },
+
+
+      {
         enunciado: "Qual dos seguintes fatores é mais frequentemente citado como uma causa primária da desigualdade social em sociedades modernas?",
-        alternativas: ["Distribuição desigual de ", ""],
-        },
+        alternativas: [
+
+        {texto: "Distribuição desigual de riqueza e renda",
+       afirmação: "Afirmção da alternativa 1"  
+      },
+  
+      {texto: "Localização geográfica",
+       afirmação: "Afirmação da alternativa 2"
+      },
+  
+       {texto: "Condições Climáticas",
+       afirmação: "Afirmação da alternativa 3"
+       },
+      ]
+    }
+];
+
+
     
 
-]
+
 
    
