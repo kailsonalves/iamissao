@@ -4,61 +4,61 @@ const caixaAlternativas = document.querySelector(".caixa- alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
-const perguntas = [,
+const perguntas = [
     {
     enunciado: "Qual pais tem o maior indice de pobreza?",
     alternativas: [ 
         
     {texto: "África",
-     afirmação: "Afirmção da alternativa 1"  
+     afirmação: ""  
     },
 
     {texto: "Somália",
-     afirmação: "Afirmação da alternativa 2"
+     afirmação: ""
     },
 
-     {texto: "Cuba",
-     afirmação: "Afirmação da alternativa 3"
-     },
-    ]
-},   
+    {texto: "Cuba",
+    afirmação: ""
+    }]
+    },   
+
+
     {
-      enunciado: "Qual o estado brasileiro mais racista?",
-      alternativas: [
+    enunciado: "Qual o estado brasileiro mais racista?",
+    alternativas: [
 
-      {texto: "São Paulo",
-       afirmação: "Afirmção da alternativa 1"  
-      },
+    {texto: "São Paulo",
+    afirmação: ""  
+    },
   
-      {texto: "Paraná",
-       afirmação: "Afirmação da alternativa 2"
-      },
+    {texto: "Paraná",
+    afirmação: ""
+    },
   
-       {texto: "Rio Grande do Sul",
-       afirmação: "Afirmação da alternativa 3"
-       },
-      ]
+    {texto: "Rio Grande do Sul",
+    afirmação: ""
+    }]
     },
 
 
-      {
-        enunciado: "Qual dos seguintes fatores é mais frequentemente citado como uma causa primária da desigualdade social em sociedades modernas?",
-        alternativas: [
+    {
+    enunciado: "Qual dos seguintes fatores é mais frequentemente citado como uma causa primária da desigualdade social em sociedades modernas?",
+    alternativas: [
 
-        {texto: "Distribuição desigual de riqueza e renda",
-       afirmação: "Afirmção da alternativa 1"  
-      },
+    {texto: "Distribuição desigual de riqueza e renda",
+    afirmação: ""  
+    },
   
-      {texto: "Localização geográfica",
-       afirmação: "Afirmação da alternativa 2"
-      },
+    {texto: "Localização geográfica",
+    afirmação: ""
+    },
   
-       {texto: "Condições Climáticas",
-       afirmação: "Afirmação da alternativa 3"
-       },
-      ]
+    {texto: "Condições Climáticas",
+     afirmação: ""
+    }]
     }
 ];
+
 
 let atual = 0
 let perguntaAtual;
@@ -86,7 +86,7 @@ function mostraAlternativas() {
 }
 
 function mostraResultado() {
-  caixaPerguntas.textContent = "";
+  caixaPerguntas.textContent = "As perguntas abordam temas relevantes sobre a desigualdade social: a primeira questiona qual país possui o maior índice de pobreza, ja a segunda busca identificar o estado mais racista do Brasil. A ultima questão se concentra em investigar qual dos fatores, dentre os apresentados, é mais frequentemente apontado como causa primária da esigualdade social em sociedades modernas";
   textoResultado.te = historiaFinal;
   caixaAlternativas.textContent = "";
 }
